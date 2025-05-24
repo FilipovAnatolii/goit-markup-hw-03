@@ -79,6 +79,16 @@ span {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+<<<<<<< HEAD
+=======
+.features-item {
+  display: flex;
+  margin-top: 120px;
+  margin-bottom: 240px;
+  justify-content: center;
+  align-items: center;
+}
+>>>>>>> df60683 (css)
 .features-item-text {
   font-size: 16px;
   line-height: 1.5;
@@ -94,8 +104,17 @@ span {
   color: #2e2f42;
   text-transform: capitalize;
 }
+<<<<<<< HEAD
 .team{
   background-color: #F4F4FD;
+=======
+.team {
+  background-color: #f4f4fd;
+}
+.team-item {
+  display: flex;
+  padding-bottom: 240px;
+>>>>>>> df60683 (css)
 }
 .team-name {
   font-weight: 500;
@@ -112,8 +131,18 @@ span {
   text-align: center;
   color: #434455;
 }
+<<<<<<< HEAD
 .team-item-list{
   background-color: #FFF;
+=======
+.team-item-list {
+  background-color: #fff;
+}
+.portfolio-item {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 120px;
+>>>>>>> df60683 (css)
 }
 .portfolio-project {
   font-weight: 500;
@@ -151,6 +180,13 @@ span {
   letter-spacing: 0.02em;
   color: #f4f4fd;
 }
+<<<<<<< HEAD
 footer{
+=======
+.footer {
+  width: 264px;
+}
+footer {
+>>>>>>> df60683 (css)
   background: #2e2f42;
 }
