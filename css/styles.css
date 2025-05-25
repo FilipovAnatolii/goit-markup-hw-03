@@ -1,4 +1,3 @@
-
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
@@ -23,19 +22,15 @@ h6 {
   margin-top: 0;
   margin-bottom: 0;
 }
-img{
+img {
   display: block;
 }
 address {
   font-style: normal;
 }
-.header-container{
+.header-container {
   display: flex;
-  max-width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: 0 auto;
-  width: 100%;
+  align-items: center;
 }
 .container {
   max-width: 1158px;
@@ -45,7 +40,7 @@ address {
   width: 100%;
 }
 
-.header{
+.header {
   border-bottom: 1px solid #e7e9fc;
 }
 .header-logo {
@@ -61,9 +56,9 @@ address {
 span {
   color: #2e2f42;
 }
-.header-navigation{
+.header-navigation {
   display: flex;
-  align-items: center; 
+  align-items: center;
 }
 .header-menu-list {
   display: flex;
@@ -71,14 +66,12 @@ span {
   align-items: center;
   gap: 40px;
 }
-.header-address{
+.header-address {
   margin-left: auto;
 }
 .header-menu-address {
   display: flex;
-  justify-content: center;
   align-items: center;
-  padding: 24px 0;
   gap: 40px;
 }
 .header-menu-link {
@@ -88,6 +81,7 @@ span {
   letter-spacing: 0.02em;
   color: #2e2f42;
   padding: 24px 0;
+  display: block;
 }
 .header-menu-link:hover,
 .header-menu-link:focus {
@@ -99,6 +93,8 @@ span {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #434455;
+  display: block;
+  padding: 24px 0;
 }
 .header-address-link:focus,
 .header-address-link:hover {
@@ -106,8 +102,6 @@ span {
 }
 .hero {
   background: #2e2f42;
-  width: 100%;
-  height: 600px;
   padding: 188px 0;
 }
 .hero .container {
@@ -123,7 +117,7 @@ span {
   line-height: 107%;
   letter-spacing: 0.02em;
   color: #fff;
-  padding-bottom: 48px;
+  margin-bottom: 48px;
   max-width: 496px;
   text-align: center;
 }
@@ -160,7 +154,7 @@ span {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.features{
+.features {
   padding: 120px 0;
 }
 .features-subtitle {
@@ -171,13 +165,13 @@ span {
   color: #2e2f42;
   margin-bottom: 8px;
 }
-.features-item{
+.features-item {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 24px;
 }
-.features-item-list{
+.features-item-list {
   width: calc((100% - 3 * 24px) / 4);
 }
 .features-item-text {
@@ -203,12 +197,11 @@ span {
   background-color: #f4f4fd;
   padding: 120px 0;
 }
-.team-item{
+.team-item {
   display: flex;
-  gap:24px;
-  width: calc((100% -72px * 3) / 4);
+  gap: 24px;
 }
-.team-name-position{
+.team-name-position {
   padding: 32px 0;
 }
 .team-name {
@@ -232,10 +225,10 @@ span {
   border-radius: 0px 0px 4px 4px;
   width: calc((100% - 3 * 24px) / 4);
 }
-.portfolio-section{
+.portfolio-section {
   padding: 120px 0;
 }
-.portfolio-item{
+.portfolio-item {
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
@@ -257,13 +250,14 @@ span {
 }
 .portfolio-item-list {
   background-color: #ffffff;
+  width: calc((100% - 48px) / 3);
 }
-.portfolio-project-container{
+.portfolio-project-container {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
 }
-.main-footer{
+.main-footer {
   padding: 100px 0;
 }
 .footer-logo {
@@ -287,8 +281,9 @@ span {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  max-width: 264px;
 }
-.footer{
+.footer {
   width: 264px;
 }
 footer {
