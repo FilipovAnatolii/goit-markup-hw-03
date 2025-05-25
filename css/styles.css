@@ -69,7 +69,6 @@ span {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 24px 0;
   gap: 40px;
 }
 .header-address{
@@ -88,6 +87,7 @@ span {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding: 24px 0;
 }
 .header-menu-link:hover,
 .header-menu-link:focus {
@@ -108,6 +108,7 @@ span {
   background: #2e2f42;
   width: 100%;
   height: 600px;
+  padding: 188px 0;
 }
 .hero .container {
   display: flex;
@@ -123,7 +124,7 @@ span {
   letter-spacing: 0.02em;
   color: #fff;
   padding-bottom: 48px;
-  max-width: 500px;
+  max-width: 496px;
   text-align: center;
 }
 .hero-btn {
@@ -137,7 +138,7 @@ span {
   border-radius: 4px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   border: none;
-  width: 169px;
+  min-width: 169px;
   height: 56px;
 }
 
@@ -147,6 +148,19 @@ span {
 .hero-btn:focus {
   background-color: #404bbf;
 }
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
 .features-subtitle {
   font-weight: 500;
   font-size: 20px;
@@ -157,11 +171,10 @@ span {
 }
 .features-item{
   display: flex;
-  margin-top: 120px;
-  margin-bottom: 240px;
   justify-content: center;
   align-items: center;
   gap: 24px;
+  padding: 120px 0;
 }
 .features-item-list{
   width: calc((100% - 72px * 3) / 4);
@@ -181,16 +194,21 @@ span {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
   justify-content: center;
   align-items: center;
 }
 .team {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 .team-item{
   display: flex;
-  padding-bottom: 240px;
+  gap:24px;
+  width: calc((100% -72px * 3) / 4);
+}
+.team-name-position{
+  padding: 32px 0;
 }
 .team-name {
   font-weight: 500;
@@ -199,6 +217,7 @@ span {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .team-position {
   font-size: 16px;
@@ -209,11 +228,16 @@ span {
 }
 .team-item-list {
   background-color: #fff;
+  border-radius: 0px 0px 4px 4px;
+}
+.portfolio-section{
+  padding: 120px 0;
 }
 .portfolio-item{
   display: flex;
   flex-wrap: wrap;
-  padding-bottom: 120px;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 .portfolio-project {
   font-weight: 500;
@@ -230,6 +254,11 @@ span {
 }
 .portfolio-item-list {
   background-color: #ffffff;
+}
+.portfolio-project-container{
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 .footer-logo {
   font-family: "Raleway", sans-serif;
