@@ -153,14 +153,16 @@ span {
   width: 1px;
   height: 1px;
   margin: -1px;
-  padding: 0;
   border: 0;
-  overflow: hidden;
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
+  padding: 0;
   white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
-
+.features{
+  padding: 120px 0;
+}
 .features-subtitle {
   font-weight: 500;
   font-size: 20px;
@@ -174,10 +176,9 @@ span {
   justify-content: center;
   align-items: center;
   gap: 24px;
-  padding: 120px 0;
 }
 .features-item-list{
-  width: calc((100% - 72px * 3) / 4);
+  width: calc((100% - 3 * 24px) / 4);
 }
 .features-item-text {
   font-size: 16px;
@@ -229,6 +230,7 @@ span {
 .team-item-list {
   background-color: #fff;
   border-radius: 0px 0px 4px 4px;
+  width: calc((100% - 3 * 24px) / 4);
 }
 .portfolio-section{
   padding: 120px 0;
